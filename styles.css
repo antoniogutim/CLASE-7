@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: left;
+    text-align: center;
     background-color: #f4f4f4;
     padding: 20px;
 }
@@ -32,4 +32,9 @@ input, textarea {
     margin: 10px 0;
     border: 1px solid #dedddd;
     border-radius: 5px;
+}
+ul {
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
 }
